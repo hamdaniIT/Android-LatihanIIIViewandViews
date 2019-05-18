@@ -32,10 +32,39 @@
                 android:textColor="@android:color/white"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:layout_gravity="bottom"
-
-                />
+                android:layout_gravity="bottom"/>
         </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="$735"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Stock hanya 5 buah"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_text"
+            android:lineSpacingMultiplier="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textColor="@android:color/black"
+            />
     </LinearLayout>
 
-</>
+</ScrollView>
