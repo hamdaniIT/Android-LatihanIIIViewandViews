@@ -23,57 +23,39 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="6 Photos"
+                android:text="@string/dummy_photos"
                 android:gravity="center_vertical"
                 android:drawableLeft="@drawable/ic_collections_white_18dp"
+                android:drawableStart="@drawable/ic_collections_white_18dp"
                 android:drawablePadding="4dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                 android:background="#4D000000"
-                android:textColor="@android:color/white"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:layout_gravity="bottom"/>
         </FrameLayout>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Black"
             android:textSize="32sp"
-            android:text="$735"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/dummy_value"
             android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:layout_marginBottom="8dp"
-            android:textColor="@android:color/black"
-            />
+            android:layout_marginBottom="8dp"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:text="Stock hanya 5 buah"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:textColor="@android:color/black"
-            />
+            style="@style/TextContent.Subtitle"
+            android:text="@string/stock"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent"
             android:text="@string/content_text"
-            android:lineSpacingMultiplier="1"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:lineSpacingMultiplier="1"
             android:textColor="@android:color/black"
             />
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:text="Spesifikasi"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            style="@style/TextContent.Subtitle"
+            android:text="@string/specification"
             android:layout_marginBottom="8dp"
-            android:textColor="@android:color/black"
             />
         <TableLayout
             android:layout_width="match_parent"
@@ -87,6 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 >
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -174,12 +157,8 @@
 
         </RelativeLayout>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Beli"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+            style="@style/ButtonGeneral"
+          android:text="Beli"/>
     </LinearLayout>
 
 </ScrollView>

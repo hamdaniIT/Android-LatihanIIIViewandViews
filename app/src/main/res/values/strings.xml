@@ -1,4 +1,8 @@
 <resources>
+    <string name="specification">specification</string>
+    <string name="stock">Stock hanya 5 buah</string>
+    <string name="dummy_value">$735</string>
+    <string name="dummy_photos">6 Photos</string>
     <string name="app_name">LatihanIIIViewandViews</string>
     <string name="content_text">Google officially announced its much-anticipated Pixel phones; the Pixel and Pixel XL, on October 4. We attended Google’s London UK event, mirroring the main one taking place in San Francisco, US, where the firm unwrapped the new Android 7.1 Nougat devices which will apparently usurp Google’s long-standing Nexus series.</string>
     <string name="content_specs_display">5.0 inches\n
